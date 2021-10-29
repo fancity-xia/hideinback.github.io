@@ -1,8 +1,8 @@
 # Site settings
 title: Fancity Blog
-SEOTitle: xiazhanfeng的博客 | xzf Blog
+SEOTitle: xiazhanfeng的博客 | fancity Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: 659477532@qq.com
 description: "关于程序与设计 | 与你一起发现更大的世界。"
 keyword: "夏展峰, xiazhanfeng, Fancity Blog, 博客, 个人网站, 互联网, python, linux, R, 数据分析师"
 url: "https://xiazhanfeng.me"              # your host, for absolute URL
@@ -39,7 +39,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
-
+gems: [jekyll-paginate]
 
 
 # Markdown settings
@@ -102,9 +102,9 @@ page-mathjax: false
 
 # Friends
 friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
+   #{
+        #title: "Su",
+        #href: "http://su.gallery/"
     # },{
     #    title: "乱序",
     #    href: "http://mida.re/"
